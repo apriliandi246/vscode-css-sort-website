@@ -88,7 +88,7 @@ export default function Home() {
 
 function useCssCode() {
    const beforeExample = useState(`
-.selector {
+selector {
    white-space: pre-line;
    display: block;
    resize: none;
@@ -107,7 +107,7 @@ function useCssCode() {
    `);
 
    const resultOne = useState(`
-.selector {
+selector {
    width: 100%;
    resize: none;
    padding: 15px;
@@ -126,7 +126,7 @@ function useCssCode() {
    `);
 
    const resultTwo = useState(`
-.selector {
+selector {
    transition: background-color 0.2s;
    border: 1px solid #38444d;
    background-color: #253341;
