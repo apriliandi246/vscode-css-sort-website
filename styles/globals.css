@@ -139,20 +139,25 @@ html {
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+body {
+   color: #ffffff;
+   background-color: #15202b;
+}
+
 @media screen and (min-width: 760px) {
    html {
-      font-size: 18px;
+      font-size: 17px;
    }
 }
 
 @media screen and (min-width: 800px) {
    html {
-      font-size: 19px;
+      font-size: 18px;
    }
 }
 
 @media screen and (min-width: 1200px) {
    html {
-      font-size: 20px;
+      font-size: 19px;
    }
 }

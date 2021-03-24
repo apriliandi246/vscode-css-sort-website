@@ -1,0 +1,128 @@
+.container {
+   width: 90%;
+   margin: 50px auto;
+}
+
+.introduction {
+   margin-top: 50px;
+   line-height: 26px;
+   border-radius: 2px;
+   padding-block: 1.9rem;
+   padding-inline: 1.3rem;
+   border: 4px solid #2a3e4b;
+   box-shadow: 11px 11px 1px 1px #2a3e4b;
+}
+
+.introduction__title {
+   font-size: 1.3rem;
+   font-weight: bold;
+   text-align: center;
+   margin-bottom: 50px;
+   letter-spacing: 1.2px;
+}
+
+.introduction__explain {
+   font-size: 1.1rem;
+   letter-spacing: 1.2px;
+}
+
+.introduction__desc {
+   margin-top: 10px;
+   letter-spacing: 1.2px;
+}
+
+.introduction__title_example {
+   margin-top: 30px;
+   margin-bottom: 20px;
+   letter-spacing: 1.2px;
+}
+
+.cssCode_container {
+   overflow-x: auto;
+   margin-bottom: 50px;
+   border-radius: 10px;
+   padding-inline: 30px;
+   border: 3px solid #2a3044;
+   background-color: #271e30;
+}
+
+.cssCode_container::-webkit-scrollbar {
+   background: #2a3044;
+}
+.cssCode_container::-webkit-scrollbar-thumb {
+   background: #c3cedb;
+}
+
+.css_code {
+   color: #e5ebde;
+   font-weight: 550;
+   line-height: 25px;
+   font-family: monospace;
+}
+
+.section_why {
+   margin-top: 60px;
+}
+
+.languages_support {
+   margin-top: 70px;
+}
+
+@media screen and (min-width: 730px) {
+   .container {
+      width: 87%;
+   }
+
+   .introduction {
+      padding-inline: 1.9rem;
+      padding-block: 2.2rem;
+   }
+}
+
+@media screen and (min-width: 760px) {
+   .cssCode_container {
+      font-size: 0.9rem;
+   }
+}
+
+@media screen and (min-width: 900px) {
+   .container {
+      width: 80%;
+   }
+}
+
+@media screen and (min-width: 1112px) {
+   .container {
+      width: 74%;
+   }
+}
+
+@media screen and (min-width: 1320px) {
+   .container {
+      width: 70%;
+   }
+}
+
+@media screen and (min-width: 1430px) {
+   .container {
+      width: 60%;
+   }
+}
+
+@media screen and (min-width: 1625px) {
+   .container {
+      width: 55%;
+   }
+}
+
+@media screen and (min-width: 1740px) {
+   .container {
+      width: 50%;
+   }
+}
+
+@media screen and (min-width: 1865px) {
+   .container {
+      width: 45%;
+   }
+}
