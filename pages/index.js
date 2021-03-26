@@ -62,11 +62,32 @@ export default function Home() {
                      I have explained why I created this extension in my blog.{" "}
                      <a
                         href="https://apriliandi.xyz/blog/my-first-vscode-extension"
+                        className={styles.link}
                         target="_blank"
                         rel="noopener"
                      >
                         Read this.
                      </a>
+                  </p>
+               </div>
+
+               <div className={styles.languages_support}>
+                  <h2 className={styles.introduction__explain}>
+                     🔧 How it's work ????
+                  </h2>
+
+                  <p className={styles.introduction__desc}>
+                     Simple, it will take your CSS properties that you already
+                     selected and final step is it will sorting your CSS
+                     properties.
+                  </p>
+
+                  <p className={styles.more_desc}>
+                     This extension has two functionality, single sort and
+                     multiple sort. Single sort, you select your CSS properties
+                     (just css proerties) and sorting the properties. Multiple
+                     sort, you select more than one CSS selector with the CSS
+                     properties itself and sorting the properties.
                   </p>
                </div>
 
@@ -78,6 +99,31 @@ export default function Home() {
                   <p className={styles.introduction__desc}>
                      Currently, this extension support some languages (you can
                      see at the header menu).
+                  </p>
+               </div>
+
+               <div className={styles.languages_support}>
+                  <h2 className={styles.introduction__explain}>🏃 Live demo</h2>
+
+                  <p className={styles.introduction__desc}>
+                     You can try live demo at this{" "}
+                     <a
+                        href="https://svelte-css-sort.netlify.app"
+                        className={styles.link}
+                        target="_blank"
+                        rel="noopener"
+                     >
+                        link
+                     </a>{" "}
+                     or this{" "}
+                     <a
+                        href="https://react-css-sort.netlify.app"
+                        className={styles.link}
+                        target="_blank"
+                        rel="noopener"
+                     >
+                        link.
+                     </a>
                   </p>
                </div>
             </div>
