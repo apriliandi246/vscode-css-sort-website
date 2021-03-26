@@ -12,8 +12,8 @@ export default function Header() {
             <a>CSS</a>
          </Link>
 
-         <Link href="/sass">
-            <a>SASS</a>
+         <Link href="/scss">
+            <a>SCSS</a>
          </Link>
 
          <Link href="/sc">
