@@ -116,6 +116,17 @@ export default function Home() {
                >
                   link.
                </a>
+               {""} Or you can download {""}
+               <a
+                  href="https://marketplace.visualstudio.com/items?itemName=apriliandi246.css-sort"
+                  className={styles.link}
+                  target="_blank"
+                  rel="noopener"
+               >
+                  this extension
+               </a>{" "}
+               or type in search input at Vscode marketplace with keyword{" "}
+               <span className={styles.hightlight}>css-sort.</span>
             </p>
          </section>
       </>

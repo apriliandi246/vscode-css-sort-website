@@ -28,6 +28,13 @@ export default function JavascriptFramework() {
             <h2 className={styles.introduction__explain}>
                🤔 How to use it in Javascript Framework ????
             </h2>
+
+            <p className={styles.introduction__desc}>
+               If you use Javascript framework like Svelte and Vue and you have
+               to write CSS code in style tag (mostly). And if you want use this
+               extension, just same rules with previous documentaion for
+               different languages.
+            </p>
          </section>
       </>
    );
