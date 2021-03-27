@@ -75,11 +75,13 @@ export default function Home() {
             </p>
 
             <p className={styles.more_desc}>
-               This extension has two functionality, single sort and multiple
-               sort. Single sort, you select your CSS properties (just css
-               proerties) and sorting the properties. Multiple sort, you select
-               more than one CSS selector with the CSS properties itself and
-               sorting the properties.
+               This extension has two functionality,{" "}
+               <span className={styles.hightlight}>single sort</span> and{" "}
+               <span className={styles.hightlight}>multiple sort</span>. Single
+               sort, you select your CSS properties (just css proerties) and
+               sorting the properties. Multiple sort, you select more than one
+               CSS selector with the CSS properties itself and sorting the
+               properties.
             </p>
          </section>
 

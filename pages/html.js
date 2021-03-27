@@ -17,9 +17,9 @@ export default function Html() {
             <p className={styles.introduction__desc}>
                Simple, just select CSS properties you want and choose what
                pattern you wanna apply into sorting functionality. It has two
-               pattern, that's{" "}
-               <span className={styles.hightlight}>Smaller to Bigger</span> and{" "}
-               <span className={styles.hightlight}>Bigger to Smaller.</span>
+               functionalities or concept, that's{" "}
+               <span className={styles.hightlight}>smaller to bigger</span> and{" "}
+               <span className={styles.hightlight}>bigger to smaller.</span>
             </p>
          </section>
 

@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import styles from "../styles/home.module.css";
 
 export default function Scss() {
@@ -7,7 +8,6 @@ export default function Scss() {
          <Head>
             <title>SCSS</title>
          </Head>
-
          <h1 className={styles.introduction__title}>SCSS</h1>
 
          <section className={styles.section}>
@@ -16,9 +16,9 @@ export default function Scss() {
             <p className={styles.introduction__desc}>
                Simple, just select CSS properties you want and choose what
                pattern you wanna apply into sorting functionality. It has two
-               pattern, that's{" "}
-               <span className={styles.hightlight}>Smaller to Bigger</span> and{" "}
-               <span className={styles.hightlight}>Bigger to Smaller.</span>
+               functionalities or concept, that's{" "}
+               <span className={styles.hightlight}>smaller to bigger</span> and{" "}
+               <span className={styles.hightlight}>bigger to smaller.</span>
             </p>
 
             <p className={styles.more_desc}>
@@ -28,10 +28,85 @@ export default function Scss() {
             </p>
          </section>
 
-         <section className={styles.section} style={{ marginBottom: "0px" }}>
+         <section className={styles.section}>
             <h2 className={styles.introduction__explain}>
                🤔 How to use it in SCSS ????
             </h2>
+         </section>
+
+         <section className={styles.section}>
+            <h3 className={styles.introduction__title_example}>Before :</h3>
+
+            <Image
+               src="https://i.ibb.co/RNdpK3V/scss-before.png"
+               width={884}
+               height={965}
+               quality={100}
+               alt="scss-example-1"
+               layout="responsive"
+            />
+         </section>
+
+         <section className={styles.section}>
+            <h3 className={styles.introduction__title_example}>
+               Single sort (
+               <span className={styles.hightlight}>smaller to bigger</span> and{" "}
+               {""}
+               <span className={styles.hightlight}>bigger to smaller</span>) in
+               main style :
+            </h3>
+
+            <Image
+               src="https://i.ibb.co/XxNJ9dn/scss-smaller-to-bigger-single.png"
+               width={979}
+               height={968}
+               quality={100}
+               alt="scss-example-2"
+               layout="responsive"
+            />
+
+            <br />
+            <br />
+
+            <Image
+               src="https://i.ibb.co/CwKRPhK/scss-bigger-to-smaller-single.png"
+               width={1029}
+               height={970}
+               quality={100}
+               alt="scss-example-3"
+               layout="responsive"
+            />
+         </section>
+
+         <section className={styles.section} style={{ marginBottom: "0px" }}>
+            <h3 className={styles.introduction__title_example}>
+               Multiple sort (
+               <span className={styles.hightlight}>smaller to bigger</span> and{" "}
+               {""}
+               <span className={styles.hightlight}>bigger to smaller</span>) in
+               nested style :
+            </h3>
+
+            <Image
+               src="https://i.ibb.co/RQCxhGx/scss-smaller-to-bigger-multiple.png"
+               width={1023}
+               height={972}
+               quality={100}
+               alt="sc-example-4"
+               layout="responsive"
+            />
+
+            <br />
+            <br />
+
+            <Image
+               src="https://i.ibb.co/4JH1XK1/scss-bigger-to-smaller-multiple.png"
+               width={1033}
+               height={970}
+               quality={100}
+               alt="sc-example-5"
+               layout="responsive"
+            />
          </section>
       </>
    );
