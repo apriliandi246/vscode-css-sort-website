@@ -74,8 +74,8 @@ export default function Css() {
 
          <section className={styles.section}>
             <h3 className={styles.introduction__title_example}>
-               But, you can select selector too, not just the properties if you
-               want single sort functionality.
+               But, you can select CSS selector too, not just the properties if
+               you want single sort functionality.
             </h3>
 
             <Image

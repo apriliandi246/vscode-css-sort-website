@@ -25,7 +25,7 @@ export default function StyledComponent() {
             </p>
 
             <p className={styles.more_desc}>
-               Same with Scss, you have to look some rules especially if you use
+               Same with SCSS, you have to look some rules especially if you use
                nested styling and you don't have to worry it's just simple
                rules.
             </p>

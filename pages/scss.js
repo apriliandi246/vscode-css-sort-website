@@ -22,7 +22,7 @@ export default function Scss() {
             </p>
 
             <p className={styles.more_desc}>
-               But, in Scss you have to look some rules especially if you use
+               But, in SCSS you have to look some rules especially if you use
                nested styling and you don't have to worry it's just simple
                rules.
             </p>
