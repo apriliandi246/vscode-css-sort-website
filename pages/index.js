@@ -96,7 +96,7 @@ export default function Home() {
             </p>
          </section>
 
-         <section className={styles.section} style={{ marginBottom: "0px" }}>
+         <section className={styles.section}>
             <h2 className={styles.introduction__explain}>🏃 Live demo</h2>
 
             <p className={styles.introduction__desc}>
@@ -129,6 +129,16 @@ export default function Home() {
                </a>{" "}
                or type in search input at Vscode marketplace with keyword{" "}
                <span className={styles.hightlight}>css-sort.</span>
+            </p>
+         </section>
+
+         <section className={styles.section} style={{ marginBottom: "0px" }}>
+            <p
+               className={styles.introduction__desc}
+               style={{ fontStyle: "italic" }}
+            >
+               * Use Prettier extension (recomended) for formating your code,
+               and check Editor: Format On Save in Vscode settings....
             </p>
          </section>
       </>

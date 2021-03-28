@@ -1,5 +1,5 @@
-<h1 align="center">📶 css-sort</h1>
+<h1 align="center">📶 CSS-Sort</h1>
 
 <br>
 
-### Documentaion for expalin _css-sort_ extension....
+## Documentaion for explain how to use _CSS-Sort_ Vscode extension....
