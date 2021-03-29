@@ -23,19 +23,19 @@
 
 .introduction__explain {
    font-size: 1.1rem;
-   margin-bottom: 14px;
+   margin-bottom: 24px;
    letter-spacing: 1.2px;
 }
 
 .introduction__desc {
    margin-top: 10px;
-   letter-spacing: 1.2px;
+   letter-spacing: 1.1px;
 }
 
 .introduction__title_example {
    margin-top: 30px;
    margin-bottom: 20px;
-   letter-spacing: 1.2px;
+   letter-spacing: 1.1px;
 }
 
 .cssCode_container {
@@ -61,14 +61,6 @@
    font-family: monospace;
 }
 
-.section_why {
-   margin-top: 60px;
-}
-
-.languages_support {
-   margin-top: 70px;
-}
-
 .link {
    color: #599ac5;
    text-decoration: underline;
@@ -76,7 +68,7 @@
 
 .more_desc {
    margin-top: 20px;
-   letter-spacing: 1.2px;
+   letter-spacing: 1.1px;
 }
 
 .to_home {
@@ -100,6 +92,12 @@
 .hightlight {
    color: #f3ca58;
    font-weight: bold;
+}
+
+.border_img {
+   border-radius: 5px;
+   background-color: #2a3e4b;
+   border: 3px solid #2a3e4b;
 }
 
 @media screen and (min-width: 730px) {

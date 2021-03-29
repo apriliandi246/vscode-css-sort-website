@@ -1,19 +1,14 @@
 import Head from "next/head";
-import { useState } from "react";
-import styles from "../styles/home.module.css";
+import styles from "../styles/styles.module.css";
 
 export default function Home() {
-   const [beforeExample, resultOne, resultTwo] = useCssCode();
-
    return (
       <>
          <Head>
             <title>Home</title>
          </Head>
 
-         <h1 className={styles.introduction__title}>
-            📶 Vscode-css-sort extension
-         </h1>
+         <h1 className={styles.introduction__title}>📶 CSS-Sort</h1>
 
          <section className={styles.section}>
             <h2 className={styles.introduction__explain}>
@@ -28,7 +23,9 @@ export default function Home() {
             <h3 className={styles.introduction__title_example}>Before :</h3>
 
             <pre className={styles.cssCode_container}>
-               <code className={styles.css_code}>{beforeExample}</code>
+               <code className={styles.css_code}>
+                  {cssCode[0].beforeExample}
+               </code>
             </pre>
 
             <h3 className={styles.introduction__title_example}>
@@ -36,7 +33,7 @@ export default function Home() {
             </h3>
 
             <pre className={styles.cssCode_container}>
-               <code className={styles.css_code}>{resultOne}</code>
+               <code className={styles.css_code}>{cssCode[1].resultOne}</code>
             </pre>
 
             <h3 className={styles.introduction__title_example}>
@@ -44,7 +41,7 @@ export default function Home() {
             </h3>
 
             <pre className={styles.cssCode_container}>
-               <code className={styles.css_code}>{resultTwo}</code>
+               <code className={styles.css_code}>{cssCode[2].resultTwo}</code>
             </pre>
          </section>
 
@@ -138,15 +135,29 @@ export default function Home() {
                style={{ fontStyle: "italic" }}
             >
                * Use Prettier extension (recomended) for formating your code,
-               and check Editor: Format On Save in Vscode settings....
+               and check Editor: Format On Save in Vscode settings.
+            </p>
+
+            <p className={styles.more_desc} style={{ fontStyle: "italic" }}>
+               * If you use Styled-Component library, I recomended you to
+               install{" "}
+               <a
+                  href="https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components"
+                  className={styles.link}
+                  target="_blank"
+                  rel="noopener"
+               >
+                  vscode-styled-components.
+               </a>
             </p>
          </section>
       </>
    );
 }
 
-function useCssCode() {
-   const beforeExample = useState(`
+const cssCode = [
+   {
+      beforeExample: `
 selector {
    white-space: pre-line;
    display: block;
@@ -163,9 +174,10 @@ selector {
    margin-top: 17px;
    color: #f5f5f5;
 }
-   `);
-
-   const resultOne = useState(`
+   `,
+   },
+   {
+      resultOne: `
 selector {
    width: 100%;
    resize: none;
@@ -182,9 +194,10 @@ selector {
    background-color: #253341;
    transition: background-color 0.2s;
 }
-   `);
-
-   const resultTwo = useState(`
+      `,
+   },
+   {
+      resultTwo: `
 selector {
    transition: background-color 0.2s;
    border: 1px solid #38444d;
@@ -201,7 +214,6 @@ selector {
    resize: none;
    width: 100%;
 }
-   `);
-
-   return [beforeExample[0], resultOne[0], resultTwo[0]];
-}
+      `,
+   },
+];

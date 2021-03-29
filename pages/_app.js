@@ -2,8 +2,8 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import "../styles/globals.css";
-import styles from "../styles/home.module.css";
 import Header from "../components/Header";
+import styles from "../styles/styles.module.css";
 
 export default function MyApp({ Component, pageProps }) {
    return (
@@ -19,8 +19,17 @@ export default function MyApp({ Component, pageProps }) {
                </Link>
 
                <Link href="https://github.com/apriliandi246/vscode-css-sort">
-                  <a target="_blank" rel="noopener">
-                     <Image src="/github.png" width={35} height={35} />
+                  <a
+                     href="https://github.com/apriliandi246/vscode-css-sort"
+                     target="_blank"
+                     rel="noopener"
+                  >
+                     <Image
+                        src="/github.png"
+                        width={35}
+                        height={35}
+                        alt="github-icon"
+                     />
                   </a>
                </Link>
             </div>
