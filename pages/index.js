@@ -5,6 +5,38 @@ export default function Home() {
    return (
       <>
          <Head>
+            <meta
+               name="viewport"
+               content="width=device-width, initial-scale=1"
+            />
+            <meta charSet="utf-8" />
+            <meta
+               name="description"
+               content="Vscode extension to sort your CSS properties and make them easy
+               to read"
+            />
+            <meta property="og:title" content="CSS-Sort" key="ogtitle" />
+            <meta
+               property="og:description"
+               content="Vscode extension to sort your CSS properties and make them easy
+               to read"
+               key="ogdesc"
+            />
+            <meta
+               property="og:url"
+               content="https://vscode-css-sort-website.vercel.app/"
+               key="ogurl"
+            />
+            <meta
+               property="og:image"
+               content="https://i.ibb.co/3FDQvCs/logo.jpg"
+               key="ogimage"
+            />
+            <meta
+               property="og:image:secure_url"
+               content="https://i.ibb.co/3FDQvCs/logo.jpg"
+               key="ogimagesecureurl"
+            />
             <title>Home</title>
          </Head>
 
