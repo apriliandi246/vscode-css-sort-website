@@ -15,29 +15,41 @@ export default function Home() {
                content="Vscode extension to sort your CSS properties and make them easy
                to read"
             />
-            <meta property="og:title" content="CSS-Sort" key="ogtitle" />
-            <meta
-               property="og:description"
-               content="Vscode extension to sort your CSS properties and make them easy
-               to read"
-               key="ogdesc"
-            />
+            <title>CSS-Sort Vscode extension</title>
+
+            {/* Open Graph */}
+            <meta property="og:type" content="website" />
             <meta
                property="og:url"
                content="https://vscode-css-sort-website.vercel.app/"
                key="ogurl"
             />
             <meta
+               property="og:site_name"
+               content="CSS-Sort | Documentation"
+               key="ogsitename"
+            />
+            <meta
                property="og:image"
-               content="https://i.ibb.co/3FDQvCs/logo.jpg"
+               content="https://i.ibb.co/LR67Djy/logo.jpg"
                key="ogimage"
             />
             <meta
                property="og:image:secure_url"
-               content="https://i.ibb.co/3FDQvCs/logo.jpg"
+               content="https://i.ibb.co/LR67Djy/logo.jpg"
                key="ogimagesecureurl"
             />
-            <title>Home</title>
+            <meta
+               property="og:title"
+               content="CSS-Sort Vscode extension"
+               key="ogtitle"
+            />
+            <meta
+               property="og:description"
+               content="📶 Vscode extension to sort your CSS properties and make them easy
+               to read...."
+               key="ogdesc"
+            />
          </Head>
 
          <h1 className={styles.introduction__title}>📶 CSS-Sort</h1>
