@@ -125,7 +125,7 @@ export default function Home() {
                   this extension
                </a>{" "}
                or type in search input at Vscode marketplace with keyword{" "}
-               <span className={styles.hightlight}>css-sort.</span>
+               <span className={styles.hightlight}>CSS-Sort.</span>
             </p>
          </section>
 
