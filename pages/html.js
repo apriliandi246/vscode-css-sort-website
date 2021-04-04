@@ -33,7 +33,7 @@ export default function Html() {
                Before :
             </h3>
 
-            <div className={styles.border_img}>
+            <div className={styles.img_component}>
                <Image
                   src="https://i.ibb.co/ZRsLKp3/output-onlinejpgtools.jpg"
                   width={986}
@@ -50,7 +50,7 @@ export default function Html() {
                Single sort (smaller to bigger) :
             </h3>
 
-            <div className={styles.border_img}>
+            <div className={styles.img_component}>
                <Image
                   src="https://i.ibb.co/nf6RNV2/html-single-smaller-to-bigger.png"
                   width={987}
@@ -67,7 +67,7 @@ export default function Html() {
                Single sort (bigger to smaller) :
             </h3>
 
-            <div className={styles.border_img}>
+            <div className={styles.img_component}>
                <Image
                   src="https://i.ibb.co/HhpZJTr/html-single-bigger-to-smaller.png"
                   width={983}
@@ -85,7 +85,7 @@ export default function Html() {
                want single sort functionality.
             </h3>
 
-            <div className={styles.border_img}>
+            <div className={styles.img_component}>
                <Image
                   src="https://i.ibb.co/GWj6yrM/html-multiple-smaller-to-bigger-single.png"
                   width={1127}
@@ -99,7 +99,7 @@ export default function Html() {
             <br />
             <br />
 
-            <div className={styles.border_img}>
+            <div className={styles.img_component}>
                <Image
                   src="https://i.ibb.co/cQvwfMy/html-multiple-bigger-to-smaller-single.png"
                   width={1127}
@@ -116,7 +116,7 @@ export default function Html() {
                Multiple sort (smaller to bigger) :
             </h3>
 
-            <div className={styles.border_img}>
+            <div className={styles.img_component}>
                <Image
                   src="https://i.ibb.co/zs5t5FK/html-multiple-smaller-to-bigger.png"
                   width={1123}
@@ -133,7 +133,7 @@ export default function Html() {
                Multiple sort (bigger to smaller) :
             </h3>
 
-            <div className={styles.border_img}>
+            <div className={styles.img_component}>
                <Image
                   src="https://i.ibb.co/JHtkMzx/html-multiple-bigger-to-smaller.png"
                   width={1102}
@@ -150,7 +150,7 @@ export default function Html() {
                If you use media query :
             </h3>
 
-            <div className={styles.border_img}>
+            <div className={styles.img_component}>
                <Image
                   src="https://i.ibb.co/47xK8m0/html-media-query.png"
                   width={1120}

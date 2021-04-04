@@ -50,6 +50,14 @@ export default function Home() {
                to read...."
                key="ogdesc"
             />
+
+            {/* twitter open graph */}
+            <meta property="twitter:card" content="summary" />
+            <meta
+               property="twitter:image"
+               content="https://i.ibb.co/LR67Djy/logo.jpg"
+            />
+            <meta property="twitter:site" content="@calon_jenazah__" />
          </Head>
 
          <h1 className={styles.introduction__title}>📶 CSS-Sort</h1>

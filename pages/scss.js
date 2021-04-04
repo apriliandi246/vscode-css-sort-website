@@ -38,7 +38,7 @@ export default function Scss() {
                Before :
             </h3>
 
-            <div className={styles.border_img}>
+            <div className={styles.img_component}>
                <Image
                   src="https://i.ibb.co/RNdpK3V/scss-before.png"
                   width={884}
@@ -59,7 +59,7 @@ export default function Scss() {
                main style :
             </h3>
 
-            <div className={styles.border_img}>
+            <div className={styles.img_component}>
                <Image
                   src="https://i.ibb.co/XxNJ9dn/scss-smaller-to-bigger-single.png"
                   width={979}
@@ -73,7 +73,7 @@ export default function Scss() {
             <br />
             <br />
 
-            <div className={styles.border_img}>
+            <div className={styles.img_component}>
                <Image
                   src="https://i.ibb.co/CwKRPhK/scss-bigger-to-smaller-single.png"
                   width={1029}
@@ -94,7 +94,7 @@ export default function Scss() {
                nested style :
             </h3>
 
-            <div className={styles.border_img}>
+            <div className={styles.img_component}>
                <Image
                   src="https://i.ibb.co/RQCxhGx/scss-smaller-to-bigger-multiple.png"
                   width={1023}
@@ -108,7 +108,7 @@ export default function Scss() {
             <br />
             <br />
 
-            <div className={styles.border_img}>
+            <div className={styles.img_component}>
                <Image
                   src="https://i.ibb.co/4JH1XK1/scss-bigger-to-smaller-multiple.png"
                   width={1033}

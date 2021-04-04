@@ -33,7 +33,7 @@ export default function Css() {
                Before :
             </h3>
 
-            <div className={styles.border_img}>
+            <div className={styles.img_component}>
                <Image
                   src="https://i.ibb.co/J3SQPRk/css-before.png"
                   width={686}
@@ -50,7 +50,7 @@ export default function Css() {
                Single sort (smaller to bigger) :
             </h3>
 
-            <div className={styles.border_img}>
+            <div className={styles.img_component}>
                <Image
                   src="https://i.ibb.co/Xjd31mh/css-smaller-to-bigger-single.png"
                   width={956}
@@ -67,7 +67,7 @@ export default function Css() {
                Single sort (bigger to smaller) :
             </h3>
 
-            <div className={styles.border_img}>
+            <div className={styles.img_component}>
                <Image
                   src="https://i.ibb.co/b1jPmHQ/css-bigger-to-smaller-single.png"
                   width={956}
@@ -85,7 +85,7 @@ export default function Css() {
                you want single sort functionality.
             </h3>
 
-            <div className={styles.border_img}>
+            <div className={styles.img_component}>
                <Image
                   src="https://i.ibb.co/pZGBZYM/css-smaller-to-bigger-single-selector.png"
                   width={933}
@@ -99,7 +99,7 @@ export default function Css() {
             <br />
             <br />
 
-            <div className={styles.border_img}>
+            <div className={styles.img_component}>
                <Image
                   src="https://i.ibb.co/RjFzzn3/css-bigger-to-smaller-single-selector.png"
                   width={941}
@@ -116,7 +116,7 @@ export default function Css() {
                Multiple sort (smaller to bigger) :
             </h3>
 
-            <div className={styles.border_img}>
+            <div className={styles.img_component}>
                <Image
                   src="https://i.ibb.co/DDqYccg/css-multiple-smaller-to-bigger.png"
                   width={891}
@@ -133,7 +133,7 @@ export default function Css() {
                Multiple sort (bigger to smaller) :
             </h3>
 
-            <div className={styles.border_img}>
+            <div className={styles.img_component}>
                <Image
                   src="https://i.ibb.co/QDpxCtQ/css-multiple-bigger-to-smaller.png"
                   width={966}
@@ -150,7 +150,7 @@ export default function Css() {
                If you use media query :
             </h3>
 
-            <div className={styles.border_img}>
+            <div className={styles.img_component}>
                <Image
                   src="https://i.ibb.co/Hq4KzbT/css-media-query.png"
                   width={1004}

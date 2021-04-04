@@ -93,9 +93,9 @@
    font-weight: bold;
 }
 
-.border_img {
+.img_component {
    border-radius: 5px;
-   background-color: #2a3e4b;
+   background-color: rgb(42, 62, 75);
    border: 3px solid #2a3e4b;
 }
 

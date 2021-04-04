@@ -39,7 +39,7 @@ export default function StyledComponent() {
                Before :
             </h3>
 
-            <div className={styles.border_img}>
+            <div className={styles.img_component}>
                <Image
                   src="https://i.ibb.co/pQhJFX9/sc-before.png"
                   width={726}
@@ -60,7 +60,7 @@ export default function StyledComponent() {
                main style :
             </h3>
 
-            <div className={styles.border_img}>
+            <div className={styles.img_component}>
                <Image
                   src="https://i.ibb.co/MPY24Tg/sc-smaller-to-bigger-single.png"
                   width={995}
@@ -74,7 +74,7 @@ export default function StyledComponent() {
             <br />
             <br />
 
-            <div className={styles.border_img}>
+            <div className={styles.img_component}>
                <Image
                   src="https://i.ibb.co/vJKTKN6/sc-bigger-to-smaller-single.png"
                   width={1037}
@@ -95,7 +95,7 @@ export default function StyledComponent() {
                nested style :
             </h3>
 
-            <div className={styles.border_img}>
+            <div className={styles.img_component}>
                <Image
                   src="https://i.ibb.co/zXwxVch/sc-smaller-to-bigger-multiple.png"
                   width={1010}
@@ -109,7 +109,7 @@ export default function StyledComponent() {
             <br />
             <br />
 
-            <div className={styles.border_img}>
+            <div className={styles.img_component}>
                <Image
                   src="https://i.ibb.co/9rsWQX1/sc-bigger-to-smaller-multiple.png"
                   width={1183}
@@ -127,7 +127,7 @@ export default function StyledComponent() {
                single sort functionality.
             </h3>
 
-            <div className={styles.border_img}>
+            <div className={styles.img_component}>
                <Image
                   src="https://i.ibb.co/JvxscKn/sc-main-style-props.png"
                   width={1373}
@@ -141,7 +141,7 @@ export default function StyledComponent() {
             <br />
             <br />
 
-            <div className={styles.border_img}>
+            <div className={styles.img_component}>
                <Image
                   src="https://i.ibb.co/GtdvFQ1/sc-nested-style-pros.png"
                   width={1354}
