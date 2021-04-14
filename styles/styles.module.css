@@ -78,7 +78,6 @@
 
 .top_links {
    display: flex;
-   cursor: pointer;
    align-items: center;
    margin-bottom: 40px;
    justify-content: center;
