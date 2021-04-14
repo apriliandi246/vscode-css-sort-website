@@ -2,10 +2,15 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import "../styles/globals.css";
+import { useEffect } from "react";
 import Header from "../components/Header";
 import styles from "../styles/styles.module.css";
 
 export default function MyApp({ Component, pageProps }) {
+   useEffect(() => {
+      document.documentElement.setAttribute("lang", "en");
+   }, []);
+
    return (
       <>
          <Head>
