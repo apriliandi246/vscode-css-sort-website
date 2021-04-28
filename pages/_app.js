@@ -56,7 +56,7 @@ export default function MyApp({ Component, pageProps }) {
                </Link>
 
                <Link href="/jf">
-                  <a>Javascript-Framework</a>
+                  <a>Javascript Framework</a>
                </Link>
             </div>
 
