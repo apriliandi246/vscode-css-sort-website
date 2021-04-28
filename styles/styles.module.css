@@ -91,12 +91,30 @@
 .hightlight {
    color: #f3ca58;
    font-weight: bold;
+   text-shadow: 1.1px 1.1px 1.1px black;
 }
 
 .img_component {
    border-radius: 5px;
    border: 3px solid #2a3e4b;
    background-color: rgb(42, 62, 75);
+}
+
+.top {
+   width: 100%;
+   display: flex;
+   color: #f3ca58;
+   cursor: pointer;
+   margin-top: 3rem;
+   font-weight: bold;
+   font-size: 1.1rem;
+   justify-content: flex-end;
+   text-shadow: 1.5px 1.5px 1.5px black;
+   transition: transform 0.1s ease-in-out;
+}
+
+.top:hover {
+   transform: translateY(-4px);
 }
 
 /* menus style */

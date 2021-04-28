@@ -62,8 +62,15 @@ export default function MyApp({ Component, pageProps }) {
 
             <div className={styles.introduction}>
                <Component {...pageProps} />
+               <p className={styles.top} onClick={scrollToTop}>
+                  Go to top 👆
+               </p>
             </div>
          </div>
       </>
    );
+}
+
+function scrollToTop() {
+   window.scrollTo(999, 0);
 }
