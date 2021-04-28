@@ -3,7 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 import "../styles/globals.css";
 import { useEffect } from "react";
-import Header from "../components/Header";
 import styles from "../styles/styles.module.css";
 
 export default function MyApp({ Component, pageProps }) {
@@ -39,7 +38,27 @@ export default function MyApp({ Component, pageProps }) {
                </Link>
             </div>
 
-            <Header />
+            <div className={styles.menus__container}>
+               <Link href="/html">
+                  <a>HTML</a>
+               </Link>
+
+               <Link href="/css">
+                  <a>CSS</a>
+               </Link>
+
+               <Link href="/scss">
+                  <a>SCSS</a>
+               </Link>
+
+               <Link href="/sc">
+                  <a>Styled-Component</a>
+               </Link>
+
+               <Link href="/jf">
+                  <a>Javascript-Framework</a>
+               </Link>
+            </div>
 
             <div className={styles.introduction}>
                <Component {...pageProps} />
