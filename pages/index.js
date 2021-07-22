@@ -103,7 +103,7 @@ export default function Home() {
             <p className={styles.introduction__desc}>
                I have explained why I created this extension in my blog.{" "}
                <a
-                  href="https://apriliandi.xyz/blog/my-first-vscode-extension"
+                  href="https://apriliandi.xyz/blogs/my-first-vscode-extension"
                   className={styles.link}
                   target="_blank"
                   rel="noopener"
